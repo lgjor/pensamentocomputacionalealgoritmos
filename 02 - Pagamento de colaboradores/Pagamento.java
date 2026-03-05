@@ -29,5 +29,6 @@ class Pagamento{
 
         total+=pagamentoAtual;
         System.out.println("Total: "+ total);
+        scanner.close();
     }
 }
