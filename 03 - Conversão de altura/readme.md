@@ -62,6 +62,17 @@ public class ConversaoDeAlturaA {
 }
 ```
 
+### Teste de mesa
+
+| Bloco | pes (ft) | polegadas (in) | Altura (m) |
+| :---: | :---: | :---: | :---: |
+| Bloco 0 | 0 | 0 | 0 |
+| Bloco 1 | 0 | 0 | 0 |
+| Bloco 2 | 5 | 11 | 0 |
+| Bloco 3 | 5 | 11 | 1.80 |
+| Bloco 4 | 5 | 11 | 1.80 |
+| Bloco 5 | 5 | 11 | 1.80 |
+
 ## Resolução B
 
 ### Fluxograma
@@ -128,3 +139,16 @@ public class ConversaoDeAlturaB {
     }
 }
 ```
+
+### Teste de mesa
+
+| Bloco | alturaEmMetros | pes | sobraEmPes | polegadas |
+| :---: | :---: | :---: | :---: | :---: |
+| Bloco 0 | 0 | 0 | 0 | 0 |
+| Bloco 1 | 0 | 0 | 0 | 0 |
+| Bloco 2 | 1.8 | 0 | 0 | 0 |
+| Bloco 3 | 1.8 | 5 | 0 | 0 |
+| Bloco 4 | 1.8 | 5 | 0.90 | 0 |
+| Bloco 5 | 1.8 | 5 | 0.90 | 11 |
+| Bloco 6 | 1.8 | 5 | 0.90 | 11 |
+
