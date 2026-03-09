@@ -7,9 +7,13 @@ public class ConversaoDeAlturaB {
             System.out.println("Informe a altura em metros: ");
             double alturaEmMetros = scanner.nextDouble();
 
-            double pes = Math.floor(alturaEmMetros*3.28084);
-            double sobraEmPes = (alturaEmMetros*3.28084) - pes;
-            double polegadas = Math.round(sobraEmPes *12);
+            double alturaTotalEmPes = alturaEmMetros * 3.28084;
+            
+            double pes = Math.floor(alturaTotalEmPes);
+
+            double sobraEmPes = alturaTotalEmPes % 1;
+
+            double polegadas = Math.round(sobraEmPes * 12);
 
             System.out.printf("Altura pés e polegadas: %.2f %.2f%n" , pes, polegadas);
             scanner.close();
