@@ -22,8 +22,8 @@ graph TD
 
 | Bloco | instrução | temperaturaEmF | ptemperaturaEmC | Entrada | Saida
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| Bloco 0 | Início | 0 | 0 |
+| Bloco 0 | Início | 0 | 0 | 0 | 0 |
 | Bloco 1 | Leia | 100 | 0 | 100 | 0
 | Bloco 2 | Atribuição | 100 | 37.7778 |  100 | 0
-| Bloco 3 | 5 | Escreva | 100 | 37.7778 |  0 | 37.7778
-| Bloco 4 | 5 | Fim | 100 | 37.7778 |  0 | 0
+| Bloco 3 | Escreva | 100 | 37.7778 |  0 | 37.7778
+| Bloco 4 | Fim | 100 | 37.7778 |  0 | 0
