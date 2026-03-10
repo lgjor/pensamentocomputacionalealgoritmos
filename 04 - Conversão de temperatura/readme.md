@@ -8,12 +8,23 @@ Elabore um fluxograma para um algoritmo que LÊ um número real representando um
 
 ```mermaid
 graph TD
-    A([Início]) --> B[/Leitura/]
+    A([Início]) --> B[/Leitura temperaturaEmF/]
     B --> C
-    C --> D[/Escrita/]
+    C --> D[/Escrita temperaturaEmC/]
     D --> E([Fim])
 
     subgraph Processo
     C["temperaturaEmC = (temperaturaEmF - 32) * 5 / 9"]
     end
 ```
+
+## Teste de mesa
+
+| Bloco | pes (ft) | polegadas (in) | Altura (m) |
+| :---: | :---: | :---: | :---: |
+| Bloco 0 | 0 | 0 | 0 |
+| Bloco 1 | 0 | 0 | 0 |
+| Bloco 2 | 5 | 11 | 0 |
+| Bloco 3 | 5 | 11 | 1.80 |
+| Bloco 4 | 5 | 11 | 1.80 |
+| Bloco 5 | 5 | 11 | 1.80 |
