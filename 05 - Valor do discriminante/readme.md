@@ -4,3 +4,22 @@ Elabore um pseudocódigo para um algoritmo que LÊ três números reais $a$, $b$
 
 ## Pseudocódigo
 
+```
+Variáveis
+    Número real: a, b, c, d
+Início
+    Leia a, b, c
+    Atribuição d = b*b -4*a*c
+    Escreva d
+Fim
+```
+
+## Teste de mesa
+
+| Bloco | instrução | a | c | c | Entrada | Saida
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Bloco 0 | Início | 0 | 0 | 0 | 0 | 0 |
+| Bloco 1 | Leia | 1 | 5 | 3 | 0 | 1 5 3 | 0 |
+| Bloco 2 | Atribuição | 1 | 5 | 3 | 13 | 0 | 0 |
+| Bloco 3 | Escreva | 1 | 5 | 3 | 13 | 0 | 13 |
+| Bloco 4 | Fim | 1 | 5 | 3 | 13 | 0 | 0 |
