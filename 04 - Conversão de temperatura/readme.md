@@ -4,8 +4,6 @@ Elabore um fluxograma para um algoritmo que LÊ um número real representando um
 
 ## Fluxograma
 
-- [Link para solução no fluxolab](https://fluxolab.app/?lzs=NoIhBplAXBTBbADrATgQ2gV3QUXgMQgAYBdSEOJVDbNPAYWJLKiPAGZwAWANjYA42YcgCMA9tGhj4IZpACM4ftz7ciQiMDnAATNxVt5qigmTosuAppDjJ02S04BWAxx1DKZmpcaiJUmW0ucB5XHS4PU2oLOnh6AF4AAgAKT2jaPHwAWnYdAEpEgCpEp0SAekSATmtbAIcWYEM2HRY9eTYuFmD2jkdwHvlmEiA)
-
 ```mermaid
 graph TD
     A([Início]) --> B[/Leitura temperaturaEmF/]
@@ -28,4 +26,3 @@ graph TD
 | Bloco 2 | Atribuição | 100 | 37.7778 |  0 | 0
 | Bloco 3 | Escreva | 100 | 37.7778 |  0 | 37.7778
 | Bloco 4 | Fim | 100 | 37.7778 |  0 | 0
-
