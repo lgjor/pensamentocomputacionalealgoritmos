@@ -64,3 +64,17 @@ Fim
 ```
 
 ### Teste de mesa B
+
+| Bloco | instrução | binario | decimal | Entrada | Saida
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Bloco 0 | Início | 0 | 0 | 0 | 0 |
+| Bloco 1 | Leia | 1 | 0 | 1 | 0 |
+| Bloco 2 | Atribuição | 1 | 16 | 0 | 0 |
+| Bloco 3 | Leia | 0 | 0 | 0 | 0 |
+| Bloco 4 | Leia | 0 | 0 | 0 | 0 |
+| Bloco 5 | Leia | 1 | 0 | 1 | 0 |
+| Bloco 6 | Atribuição | 1 | 18 | 0 | 0 |
+| Bloco 7 | Leia | 1 | 0 | 1 | 0 |
+| Bloco 8 | Atribuição | 1 | 19 | 0 | 0 |
+| Bloco 9 | Escreva | 1 | 19 | 0 | 19 |
+| Bloco 10 | Fim | 1 | 19 | 0 | 0 |
