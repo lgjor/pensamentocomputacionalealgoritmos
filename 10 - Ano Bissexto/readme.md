@@ -8,3 +8,7 @@ Um ano é bissexto se for divisível por 4. Mas essa regra tem uma exceção: os
 - 2000 é bissexto, pois, apesar de ser divisível por 100, também é divisível por 400.
 
 Elabore uma expressão lógica que, dada uma variável inteira ano, assume o valor T, se o ano for bissexto, ou F, caso contrário. Dica: Lembre-se que $a$ é divisível por $b$ se e somente se o resto da divisão de $a$ por $b$ é igual a zero.
+
+inteiro ano
+
+`bissexto -> (ano mod 4 == 0) && ( (ano mod 100 !=0 ) || (ano mod 400 = 0) )`

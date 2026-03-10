@@ -9,3 +9,5 @@ Ter trabalhado pelo menos 30 anos.
 Ter pelo menos 60 anos e trabalhado pelo menos 25 anos.
 
 Escreva uma expressão lógica que, dadas as variáveis inteiras idade e tempo, representando a idade e o tempo de serviço, assume o valor T, se o cidadão pode se aposentar, ou F, caso contrário.
+
+`podeSeAposentar -> ( idade >= 65 || tempo>=30 || idade >=60 && tempo >=25 )`
