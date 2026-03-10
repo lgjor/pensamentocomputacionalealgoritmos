@@ -10,8 +10,8 @@ Prof. [Roberto W. Nóbrega](https://github.com/rwnobrega/)
     - 02 - [Pagamento de colaboradores](./02%20-%20Pagamento%20de%20colaboradores/readme.md)
     - 03 - [Conversão de altura (pés,polegadas - metros)](./03%20-%20Conversão%20de%20altura/readme.md)
   - Exercícios para casa
-    - 04 - Conversão de temperatura
-    - 05 - Valor do discriminante
+    - 04 - [Conversão de temperatura](./04%20-%20Conversão%20de%20temperatura/readme.md)
+    - 05 - [Valor do discriminante](./05%20-%20Valor%20do%20discriminante/readme.md)
     - 06 - Media das notas
     - 07 - Conversor binário para decimal
     - 08 - Calcular moedas
