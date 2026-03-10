@@ -25,17 +25,17 @@ graph TD
 ## Teste de mesa
 
 | Bloco | instrução | m50 | m25 | m10 | m5 | m1 | n | Entrada | Saida
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Bloco 0 | Início | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Bloco 1 | Leia | 0 | 0 | 0 | 0 | 0 | 57 | 57 | 0 |
-| Bloco 2 | Atribuição | 1 | 0 | 0 | 0 | 0 | 57 | 0 | 0 |
-| Bloco 3 | Atribuição | 1 | 0 | 0 | 0 | 0 | 7 | 0 | 0 |
-| Bloco 4 | Atribuição | 1 | 0 | 0 | 0 | 0 | 7 | 0 | 0 |
-| Bloco 5 | Atribuição | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Bloco 6 | Atribuição | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Bloco 7 | Atribuição | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Bloco 8 | Atribuição | 1 | 0 | 0 | 1 | 0 | 2 | 0 | 0 |
-| Bloco 9 | Atribuição | 1 | 0 | 0 | 1 | 2 | 2 | 0 | 0 |
-| Bloco 10 | Atribuição | 1 | 0 | 0 | 1 | 2 | 2 | 0 | 0 |
-| Bloco 11 | Escreva | 1 | 0 | 0 | 1 | 2 | 2 | 0 | 10012 |
-| Bloco 12 | Fim | 1 | 0 | 0 | 1 | 2 | 2 | 0 | 0 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+| Bloco 0 | Início | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+| Bloco 1 | Leia | 0 | 0 | 0 | 0 | 0 | 57 | 57 | 0
+| Bloco 2 | Atribuição | 1 | 0 | 0 | 0 | 0 | 57 | 0 | 0
+| Bloco 3 | Atribuição | 1 | 0 | 0 | 0 | 0 | 7 | 0 | 0
+| Bloco 4 | Atribuição | 1 | 0 | 0 | 0 | 0 | 7 | 0 | 0
+| Bloco 5 | Atribuição | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+| Bloco 6 | Atribuição | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+| Bloco 7 | Atribuição | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+| Bloco 8 | Atribuição | 1 | 0 | 0 | 1 | 0 | 2 | 0 | 0
+| Bloco 9 | Atribuição | 1 | 0 | 0 | 1 | 2 | 2 | 0 | 0
+| Bloco 10 | Atribuição | 1 | 0 | 0 | 1 | 2 | 2 | 0 | 0
+| Bloco 11 | Escreva | 1 | 0 | 0 | 1 | 2 | 2 | 0 | 10012
+| Bloco 12 | Fim | 1 | 0 | 0 | 1 | 2 | 2 | 0 | 0
