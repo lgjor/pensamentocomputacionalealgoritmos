@@ -17,6 +17,7 @@ graph TD
     C["temperaturaEmC = (temperaturaEmF - 32) * 5 / 9"]
     end
 ```
+- [Link para fluxograma no fluxolab](https://fluxolab.app/?lzs=NoIhBplBDCAYC6kQCN5NAY3cgJujYOcAZnABYAmYgRjmLGRQHsAXV5gWxAQxoorVwNAGwNo4AAQop2Jmw7dekSuBGDilISFwBeFACoUAWnIHoBuaBbsuPDGQCsG8JQAcDfPNtKM5cG4uJOQMEMC8hLS0fMKaGKp0pA6xFBFAA)
 
 ## Teste de mesa
 
@@ -27,3 +28,4 @@ graph TD
 | Bloco 2 | Atribuição | 100 | 37.7778 |  0 | 0
 | Bloco 3 | Escreva | 100 | 37.7778 |  0 | 37.7778
 | Bloco 4 | Fim | 100 | 37.7778 |  0 | 0
+
