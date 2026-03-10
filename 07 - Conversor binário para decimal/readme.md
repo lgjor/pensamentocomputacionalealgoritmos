@@ -16,3 +16,43 @@ Apresente duas soluções:
 - (b) A segunda deve utilizar apenas duas variáveis (uma para acumular o valor do número em decimal e outra para receber cada bit lido).
 
 Para cada caso, execute um teste de mesa com a entrada 1 0 0 1 1; a saída deve ser 19.
+
+## Solução A
+
+### Pseudocódigo A
+
+```pseudocódigo
+Variáveis
+    Número Inteiro: b0, b1, b2, b3, b4, decimal
+Início
+    Leia b4, b3, b2, b1, b0
+    decimal = b0 + b1*2 + b2*(2^2) + b3*(2^3) + b4*(2^4)
+    Escreva decimal
+Fim
+```
+
+### Teste de mesa A
+
+## Solução B
+
+### Pseudocódigo B
+
+```pseudocódigo
+Variáveis
+    Número Inteiro: binario, decimal
+Início
+    Leia binario
+    decimal = binario*(2^4)
+    Leia binario
+    decimal = decimal + binario*(2^3)
+    Leia binario
+    decimal = decimal + binario*(2^2)
+    Leia binario
+    decimal = decimal + binario*2
+    Leia binario
+    decimal = decimal + binario
+    Escreva decimal
+Fim
+```
+
+### Teste de mesa B
