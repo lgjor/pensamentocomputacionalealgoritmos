@@ -33,6 +33,14 @@ Fim
 
 ### Teste de mesa A
 
+| Bloco | instrução | b4 | b3 | b2 | b1 | b0 | decimal | Entrada | Saida
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Bloco 0 | Início | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Bloco 1 | Leia | 1 | 0 | 0 | 1 | 1 | 0 | 1 0 0 1 1 | 0 |
+| Bloco 2 | Atribuição | 1 | 0 | 0 | 1 | 1 | 19 | 0 | 0 |
+| Bloco 3 | Escreva | 1 | 0 | 0 | 1 | 1 | 19 | 0 | 19 |
+| Bloco 4 | Fim | 1 | 0 | 0 | 1 | 1 | 19 | 0 | 0 |
+
 ## Solução B
 
 ### Pseudocódigo B
