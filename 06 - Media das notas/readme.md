@@ -13,5 +13,5 @@ graph TD
     E --> F[/Leia nota/]
     F --> G[/media = media + nota/]
     G --> H[/Escreva media/]
-    I([Fim])
+    H --> I([Fim])
 ```
