@@ -14,10 +14,10 @@ graph TD
     F --> G[m10 = n div 10]
     G --> H[n = n mod 10]
     H --> I[m5 = n div 5]
-    J --> K[n = n mod 5]
-    L --> M[m1 = n]
-    M --> N[/Escreva m50, " ", m25, " ", m10, " ", m5, " ", m1/]
-    N --> O[(Fim)]
+    I --> J[n = n mod 5]
+    J --> K[m1 = n]
+    K --> L[/Escreva m50, " ", m25, " ", m10, " ", m5, " ", m1/]
+    L --> M[(Fim)]
 ```
 
 [Link do fluxograma no fluxolab](https://fluxolab.app/?lzs=NoIhBplA7CAYC6kQFsCsd5NCgTGrZFARk3ESIPO1WK22DnAGZxcAOJ43JsZAIwD2AF2GCUIBNmLgALG05s4vWAJFiJUyLnAA2BUw690cAAQBeU9FMATAJYA3Uxgigho8ZOzz9RubON8CytbR1N8VxB3DS9IVl9FZl0VS2sUQRtnMjd1Ty1gND0DcDQecBBrVNN0zIi1D01sfQSmZONSYOt7J1JI6LzsAHYiv11FCs7qjNNe+pj89hHFQeTy9Enu5z7cxsgATiWmdgDyypCarbmByFJD8D2y2g2wuivd4GIZQr9SR5NwUwAHRAQIg1XwAOBoIBJCYoOh1UK8OBMNeOQasQ+OkWP1IvFcUgYXC40nAt1w2B0t2Y2FYt1k3jJTDQ2EKt10TSZ4EGQy57Gwi1ue2wB1upGkxLJxGkMjFFKkQA)
