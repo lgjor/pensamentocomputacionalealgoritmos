@@ -4,7 +4,7 @@ Elabore um pseudocódigo para um algoritmo que LÊ três números reais $a$, $b$
 
 ## Pseudocódigo
 
-```
+```pseudocódigo
 Variáveis
     Número real: a, b, c, d
 Início
