@@ -66,3 +66,39 @@ Saída: 2051
 | Bloco 7 | Atribuição | 2000 | 51 | 2051 | 0 | 0
 | Bloco 8 | Saída | 2000 | 51 | 2051 | 0 | 2051
 | Bloco 9 | Fim | 2000 | 51 | 2051 | 0 | 0
+
+## Solução em Java
+
+```java
+import java.util.Scanner;
+
+class TaxaDeConveniencia {
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Digite o valor do ingresso: ");
+            double valorIngresso = scanner.nextDouble();
+            double taxaConveniencia = 0;
+            double valorTotal = 0;
+
+            if (valorIngresso <= 100) {
+                taxaConveniencia = 8 + (5.0/100)*valorIngresso;
+            }
+            else {
+                taxaConveniencia = 11 + (2.0/100)*valorIngresso;
+            }
+
+            if (taxaConveniencia <  10) {
+                taxaConveniencia = 10;
+            }
+
+            valorTotal = valorIngresso + taxaConveniencia;
+            
+            System.out.println("Valor do ingresso: R$ " + valorIngresso);
+
+            System.out.println("Taxa de conveniência: " + taxaConveniencia);   
+            
+            System.out.println("Valor total a pagar: R$ " + valorTotal);
+        }        
+    }
+}
+```
