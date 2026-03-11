@@ -15,7 +15,7 @@ Elabore um fluxograma para um algoritmo que LÊ o valor do ingresso e ESCREVE o 
 
 ## Fluxograma
 
-- [Link para o fluxograma no fluxolab](https://fluxolab.app/?lzs=NoIhBplA3BDAbA9gJwJIDsDmyCmBnPRCABgF1IQAXWAD1gGFF1od0BLVgYzdhPJgQoAKomrwAIogzZ8hPv2DFwAZnAAmACxKAjGqVgKAI1GVEAWxCl+28BvVb1xfXCRosuAkSMnzl-mvAAdnslNQAOZ0E3GU8AHgBebScIUGNKUwtwEGQ2TAALSj9IVQA2EJUS-Wo6RmZWDnRuWHiwgGoACgBWAHok4gBKACoXFGkPOW903ytIOzKSyoqq2gYmFnYuHkTtDrVepyGR6PGvVJ8LGeBOoPKNRaoV2vWGptiklJA0jIhs3IKi4DzcqdBwPGpreqbZrvSbfS7Ba6dPRBZEgI4iMSSMayU6fc4AsLgMpIpQlUHo0QILHuHHxI7YzytaqrOobRo8D5fab8ACc4EJJKCESyKSsCh0On84G0NmUUt0tn4qiS4E6-GuMqJ-DKKrC-Dsuv4hJVgX4wRVPPV0oCesgNhVajFQA)
+* [Link para o fluxograma no fluxolab](https://fluxolab.app/?lzs=NoIhBplA3BDAbA9gJwJIDsDmyCmBnPRCABgF1IQAXWAD1gGFF1od0BLVgYzdhPJgQoAKomrwAIogzZ8hPv2DFwAZnAAmACxKAjGqVgKAI1GVEAWxCl+28BvVb1xfXCRosuAkSMnzl-mvAAdnslNQAOZ0E3GU8AHgBebScIUGNKUwtwEGQ2TAALSj9IVQA2EJUS-Wo6RmZWDnRuWHiwgGoACgBWAHok4gBKACoXFGkPOW903ytIOzKSyoqq2gYmFnYuHkTtDrVepyGR6PGvVJ8LGeBOoPKNRaoV2vWGptiklJA0jIhs3IKi4DzcqdBwPGpreqbZrvSbfS7Ba6dPRBZEgI4iMSSMayU6fc4AsLgMpIpQlUHo0QILHuHHxI7YzytaqrOobRo8D5fab8ACc4EJJKCESyKSsCh0On84G0NmUUt0tn4qiS4E6-GuMqJ-DKKrC-Dsuv4hJVgX4wRVPPV0oCesgNhVajFQA)
 
 ## Teste de mesa
 
@@ -23,7 +23,7 @@ Entrada: 5
 Saída: 15
 
 | Bloco | instrução | valorIngresso | taxaConveniencia | valorTotalIngresso | Entrada | Saida
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---:
 | Bloco 0 | Início | 0 | 0 | 0 | 0 | 0
 | Bloco 1 | Leia | 5 | 0 | 0 | 5 | 0
 | Bloco 2 | Condicional | 5 | 0 | 0 | 0 | 0
@@ -39,7 +39,7 @@ Entrada: 100
 Saída: 113
 
 | Bloco | instrução | valorIngresso | taxaConveniencia | valorTotalIngresso | Entrada | Saida
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---:
 | Bloco 0 | Início | 0 | 0 | 0 | 0 | 0
 | Bloco 1 | Leia | 100 | 0 | 0 | 100 | 0
 | Bloco 2 | Condicional | 100 | 0 | 0 | 0 | 0
@@ -77,8 +77,8 @@ class TaxaDeConveniencia {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Digite o valor do ingresso: ");
             double valorIngresso = scanner.nextDouble();
-            double taxaConveniencia = 0;
-            double valorTotal = 0;
+            double taxaConveniencia;
+            double valorTotal;
 
             if (valorIngresso <= 100) {
                 taxaConveniencia = 8 + (5.0/100)*valorIngresso;

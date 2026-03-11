@@ -5,8 +5,8 @@ class TaxaDeConveniencia {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.print("Digite o valor do ingresso: ");
             double valorIngresso = scanner.nextDouble();
-            double taxaConveniencia = 0;
-            double valorTotal = 0;
+            double taxaConveniencia;
+            double valorTotal;
 
             if (valorIngresso <= 100) {
                 taxaConveniencia = 8 + (5.0/100)*valorIngresso;
