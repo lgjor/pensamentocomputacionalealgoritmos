@@ -45,3 +45,11 @@ Prof. [Roberto W. Nóbrega](https://github.com/rwnobrega/)
   - 19 - [Pertence ao conjunto](./19%20-%20Pertence%20ao%20conjunto/readme.md)
   - 20 - [Classifica triângulo](./20%20-%20Classifica%20triângulo/readme.md)
   - 21 - [Avalia aluno](./21%20-%20Avalia%20aluno/readme.md)
+ 
+  ## 4. Fluxo iterativo
+
+  - Repetição com teste lógico no início
+    - Exercícios em sala
+      - 22 - Número de referência
+      - 23 - Fibonacci
+  - Repetição com teste lógico no fim
