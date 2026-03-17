@@ -14,3 +14,13 @@ $$2 + 3 > 6, \quad \text{ainda que} \quad 3 + 6 > 2 \quad \text{e} \quad 2 + 6 >
 Além disso, se os três lados de um triângulo são iguais, então ele é chamado de triângulo *equilátero*. Se dois lados são iguais e o terceiro é diferente, então ele é chamado de triângulo *isósceles*. Se todos os lados são diferentes, então ele é chamado de triângulo *escaleno*.
 
 Elabore um fluxograma para um algoritmo que lê três números reais representando os lados de um triângulo e *Escreve* a classificação desse triângulo (Equilátero, isóceles ou escaleno) ou a mensagem: "Não forma um triângulo".
+
+## Fluxograma
+
+[Link para o fluxograma no fluxolab](https://fluxolab.app/?lzs=NoIhBplBDCAYC6kQCN5NAY3cgTgUwGcBXAGwBdoATAewgEYENg5wBmcAFgA5XfwwyFDXLkaAWxBNI9Ll371OrENHAACFOuxCRYydOAAmcAHZ5rQ4eXQA1CgB8mNQB9na25nsoXblDc+wOqISECC4AJYA5gAW5FIYnKbg9ABsrGxWAtAAvNloQXqhETFxBilJqaxKyii52qDCwZICpPgAZqUY3EkZ6ZkqdRANuiECxbHxkACcSTx9NYMFo2FREwb0rGZz7PwDeUOoI80rJZPA9MbdnJkmaQJD6xzlALSKVbsEJBTUNNkAOiAACoRABHADtImQaGpwoQAM+YfCtQgAg6NQrrRLlQx3bZhIhkSi0f5A0EQqFqfAAR2I4VIAEPyPhcDRUUt9BgAKzgcomJTsfqfQk-EnA8LQcmkaFETDQVpg1mCYZNM5mcpTTKWZRC77EgEAOQAx9C2jRcOJoGpiOI1OQyZCpWzlRiMBxuddWClBQTdXR2Wd6LJypz+JzvV8ib8AWLwQ7obCEUiiE7DiqmMxWBtkhhZFnDBhjIGuAlkkGSxdwNwuqWedWK1MMDMixsMOVm5xW8lC2xG13wJyc5ncx3IIXjCYcxwsz2ZIlp1zkukMGZ55Ap5n8zIN6Wc7ml0wgA)
+
+## Java
+
+```java
+//todo
+```
