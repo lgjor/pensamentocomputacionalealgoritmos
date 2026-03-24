@@ -13,4 +13,28 @@ Faça/enquanto. Em seguida, efetue um teste de mesa com a entrada ´7.1 2.5 3.4 
 ## Pseudocódigo A
 
 ```
+Variáveis
+    n, maior, real: número
+    
+Início
+    maior = 0
+    Faça
+        Escreva "Informe um inteiro positivo"
+        Leia n
+    enquanto n<0
+
+    Escreva "Informe ", n, " números reais"
+
+    Faça
+        Leia real
+        
+        Se real>maior
+            maior=real
+        FimSe
+        n=n-1
+    enquanto n>0
+
+    Escreva maior        
+
+Fim
 ```
