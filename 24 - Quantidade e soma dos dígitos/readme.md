@@ -6,11 +6,11 @@
 
 Dica: Além do operador de divisão inteira, utilize o operador de resto da divisão.
 
-## Fluxograma
+## Fluxograma A
 
 [Link para fluxograma no fluxolab](https://fluxolab.app/?lzs=NoIhBplA7BGCAMBdSIAmBLA5hgLgewGdEVQA3AQwCd5xlTgFwBmcAJjadk-DFQCN8uAgFsQSUrHAAWdjzYAOJiDgRQg4fjETIbcADY5TZkt5wAvHAAEmMldgI1IDaPGlWAdiPgArDxWwVgB8Vo4CQq68VNgAFrhukLKGHEycypg4BITmYeoRWgnAPgbe0tLp2HhE5hlVhADUtHma2qSGxSkG-rVZTi4FOsBeCt4eCMpqEgxcTNKksg7gsJJLqaR6iz6kxYvM7ktSbPvcBm2r4B5TQA)
 
-## Pseudocódigo
+## Pseudocódigo A
 
 ```pseudocódigo
 Variáveis
@@ -26,6 +26,33 @@ Início
     enquanto n1>0
 
     Escreva digitos    
+
+Fim
+```
+
+## Fluxograma B
+
+[Fluxograma B no fluxolab](https://fluxolab.app/?lzs=NoIhBplA7BGCAMBdSIAmBLA5hgLgewGdEVRD8BbAQxNOAXAGZwAmFhgNgbFQCN9cBCiCSlY4ACyt2rABzc4EUP0GURpFuA7SGEhAtgBeOAAJMANxOwESkCqHrIzAOw7wAVhkhTAPhM2+AQdwEAAnbAALXEdgKW02BlgvTBwCQkMA5SC1UUh3LTcJLhCUvCJDUrSAanhA1WFc4G18hK1k7DLiOodG11k3eW4lRv74mXZucmoM23sc0gBOAtbGPRCpqkMNqpMAClMKfDQrBABKWeyGsQYWmWd9dcoabvm6RN0NcGsPUnzvxlIzCSWlIUm+slI-W+sDEXwYC0WcNYpG00OQkDR4GcgK+4gRoiAA)
+
+## Pseudocódigo
+
+```pseudocódigo
+Variáveis
+    n1, digitos, soma: número
+    
+Início
+    digitos = 0
+    soma = 0
+    Leia n1
+
+    Faça
+        soma = soma + (n1 mod 10)
+        n1 = n1 div 10
+        digitos = digitos + 1
+    enquanto n1>0
+
+    Escreva "Dígitos: ", digitos
+    Escreva "Soma: ", soma  
 
 Fim
 ```
