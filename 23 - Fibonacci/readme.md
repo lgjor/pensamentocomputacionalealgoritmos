@@ -30,6 +30,10 @@ Início
 Fim
 ```
 
+## Fluxograma
+
+[Link para fluxograma no fluxolab](https://fluxolab.app/?lzs=NoIhBplA7BGCAMBdSJoCZEtAMwJYBGA9tAIYDG5eW2wC4AzI+vbACz1irEAuPRAWxBJsscADZm9FpzgBeBBFC9+QkZCaSGLRuM75iZSngVKQKwcOzoJU8OgAcs9HPjcifS+uBtwAdjs2DnAQAxIKKgAeGTMLIRCAJzwAcwALHitIAFZwHO16LJ1QwnDjWI9VTOBJLR1xPRD5DHLPNWwA2vo9fRKjKjk4AGpm91aqh3AJ-MmETiVvAE5bab8ijDkwvupRypFaVlZRcFhpa2P6BmxfWDEs7ByT-3bziSvjmwdsSUeF7CZHtjYJYAvZAA)
+
 ## Java
 
 ```Java
