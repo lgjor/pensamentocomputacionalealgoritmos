@@ -4,7 +4,7 @@ Elabore um pseudocódigo para um algoritmo que LÊ um inteiro positivo n e ESCRE
 
 ## Pseudocódigo
 
-```portugol
+```delphi
 Variáveis
     n, somaDosImpares: número
 Início
