@@ -30,7 +30,7 @@ Início
 
     Se numerosNoIntervalo==0
         Escreva "Nenhum número entre 5 e 10"
-    SeNão
+    Senão
         media = soma / numerosNoIntervalo
         Escreva media
     FimSe
