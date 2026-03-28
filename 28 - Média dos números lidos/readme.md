@@ -27,8 +27,13 @@ Início
         FimSe
         n=n-1
     FimEnquanto
+
+    Se numerosNoIntervalo==0
+        Escreva "Nenhum número entre 5 e 10"
+    SeNão
+        media = soma / numerosNoIntervalo
+        Escreva media
+    FimSe
     
-    media = soma / numerosNoIntervalo
-    Escreva media
 Fim
 ```
