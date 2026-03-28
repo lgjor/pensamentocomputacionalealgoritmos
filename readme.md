@@ -55,5 +55,9 @@ Prof. [Roberto W. Nóbrega](https://github.com/rwnobrega/)
   - Repetição com teste lógico no fim
     - Exercícios em sala
       - 24 - [Quantidade e soma de dígitos](./24%20-%20Quantidade%20e%20soma%20dos%20dígitos/readme.md)
-      - 25 - [Maior número](./25%20-%20Maior%20número/readme.md)
     - Exercícios para casa
+      - 25 - [Maior número](./25%20-%20Maior%20número/readme.md)
+      - 26 - [Converter para fluxograma](./26%20-%20Converter%20para%20fluxograma/readme.md)
+      - 27 - [Pares menores ou iguais](./27%20-%20Pares%20menores%20ou%20iguais/readme.md)
+      - 28 - [Média dos números lidos](./28%20-%20Média%20dos%20números%20lidos/readme.md)
+      - 29 - [Especial divisível por 2 ou 3 - parte 2](./29%20-%20Especial%20divisível%20por%202%20ou%203%20-%20parte%202/readme.md)
