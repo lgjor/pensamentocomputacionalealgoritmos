@@ -12,7 +12,7 @@ public class CaixasDePapelao {//ok
             double largura = scanner.nextDouble();
             double altura = scanner.nextDouble();
 
-            area = 2* (comprimento * largura + comprimento * altura + largura * altura);
+            area = 2*(comprimento * largura) + 2*(comprimento * altura) + 2*(largura * altura);
             volume = comprimento * largura * altura;
 
             System.out.println("Área da caixa: " + area);
