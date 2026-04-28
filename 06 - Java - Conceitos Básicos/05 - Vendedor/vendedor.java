@@ -3,7 +3,7 @@ public class vendedor {
     public static void main(String args[]){
         final double SALARIOFIXO = 2000;
         final double META = 10000;
-        final double BONUS = 500;
+        final double BONUSMAXIMO = 500;
 
         double valorVenda;
         int avaliacaoDesempenho;
@@ -27,7 +27,7 @@ public class vendedor {
         }
 
         if (avaliacaoDesempenho>=8){
-            bonus = BONUS;
+            bonus = BONUSMAXIMO;
         }
 
         // CÁLCULO DA REMUNERAÇÃO FINAL
