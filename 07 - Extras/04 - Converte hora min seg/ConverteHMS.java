@@ -15,7 +15,7 @@ public class ConverteHMS {
 
         int segundosSobra =  ( segundos % 3600 ) % 60;
 
-        System.out.println(horas+" horas, "+minutos+" minutos, "+segundos+" segundos");
+        System.out.println(horas+" horas, "+minutos+" minutos, "+segundosSobra+" segundos");
         
         scanner.close();
     }

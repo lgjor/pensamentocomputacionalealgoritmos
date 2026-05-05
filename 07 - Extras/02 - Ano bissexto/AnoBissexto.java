@@ -21,5 +21,7 @@ public class AnoBissexto {
             }
         }
         System.out.println("Ano bissexto: "+bissexto);
+
+        scanner.close();
     }
 }
