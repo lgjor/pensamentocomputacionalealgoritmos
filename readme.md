@@ -61,3 +61,29 @@ Prof. [Roberto W. Nóbrega](https://github.com/rwnobrega/)
       - 27 - [Pares menores ou iguais](./27%20-%20Pares%20menores%20ou%20iguais/readme.md)
       - 28 - [Média dos números lidos](./28%20-%20Média%20dos%20números%20lidos/readme.md)
       - 29 - [Especial divisível por 2 ou 3 - parte 2](./29%20-%20Especial%20divisível%20por%202%20ou%203%20-%20parte%202/readme.md)
+      - 30 - [Maior e a quantidade de vezes que ocorre](./04%20-%20Fluxo%20iterativo/30%20-%20Maior%20e%20a%20quantidade%20de%20vezes%20que%20ocorre/readme.md)
+
+  ## 5. Simulado e Prova 1
+
+  -  01 - [Simulado](./05%20-%20Simulado%20e%20Prova%201/01%20-%20Simulado/readme.md)
+  - 02 - [Prova](./05%20-%20Simulado%20e%20Prova%201/02%20-%20Prova/readme.md)
+
+  ## 6. Java - Conceitos básicos
+
+  - 01 - [Ola mundo](./06%20-%20Java%20-%20Conceitos%20Básicos/01%20-%20Ola%20Mundo/readme.md)
+  - 02 - [Caixas](./06%20-%20Java%20-%20Conceitos%20Básicos/02%20-%20Caixas/readme.md)
+  - 03 - [Altura](06%20-%20Java%20-%20Conceitos%20Básicos/03%20-%20Altura/readme.md)
+  - 04 - [Aprovado](06%20-%20Java%20-%20Conceitos%20Básicos/04%20-%20Aprovado/readme.md)
+  - 05 - [Vendedor](06%20-%20Java%20-%20Conceitos%20Básicos/05%20-%20Vendedor/readme.md)
+  - 06 - [IMC](06%20-%20Java%20-%20Conceitos%20Básicos/06%20-%20IMC/readme.md)
+  - 07 - [Date](06%20-%20Java%20-%20Conceitos%20Básicos/07%20-%20Date/readme.md)
+  - 08 - [Calculadora](06%20-%20Java%20-%20Conceitos%20Básicos/08%20-%20Calculadora/readme.md)
+
+## 7. Exercícios extras
+
+  - 01 - [Celsius Farenheit](07%20-%20Extras/01%20-%20Celsius%20Farenheit/readme.md)
+  - 02 - [Ano bissexto](07%20-%20Extras/02%20-%20Ano%20bissexto/readme.md)
+  - 03 - [Classificar triângulos](07%20-%20Extras/03%20-%20Classificar%20triangulos/readme.md)
+  - 04 - [Converte hora min seg](07%20-%20Extras/04%20-%20Converte%20hora%20min%20seg/readme.md)
+  - 05 - [Taxa de corretagem](07%20-%20Extras/05%20-%20Taxa%20de%20Corretagem/readme.md)
+  - 06 - [Números por extenso](07%20-%20Extras/06%20-%20Numeros%20por%20extenso/readme.md)
