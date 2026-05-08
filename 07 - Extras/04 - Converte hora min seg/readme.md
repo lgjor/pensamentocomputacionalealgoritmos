@@ -15,3 +15,11 @@ Não utilize os comandos for ou while.
 
 Entre com a quantidade de segundos: {int}
 Saída: {int} [hora | horas], {int} [minuto | minutos], {int} [segundo | segundos]
+
+
+## Exemplo
+
+```shell
+Entre com a quantidade de segundos: 25325
+7 horas, 2 minutos, 5 segundos
+```
