@@ -14,21 +14,18 @@ public class Calculadora {
         double n2 = Double.parseDouble(n1OperadorN2[2]);
 
         if (operador.equals("/") && n2 == 0) {
-            System.err.println("Erro: Divisão por zero");
-        } else {
-            // O switch expression exige um caso 'default' ou cobrir todas as possibilidades
-            String resultado = switch (operador) {
-                case "*" -> String.valueOf(n1 * n2);
-                case "/" -> String.valueOf(n1 / n2);
-                case "+" -> String.valueOf(n1 + n2);
-                case "-" -> String.valueOf(n1 - n2);
-                default  -> "Operador inválido";
-            };
-
-            System.out.println("Resultado: "+resultado);
+            throw new RuntimeException("Erro: Divisão por zero");
         }
+        // O switch expression exige um caso 'default' ou cobrir todas as possibilidades
+        double resultado = switch (operador) {
+            case "*" -> n1 * n2;
+            case "/" -> n1 / n2;
+            case "+" -> n1 + n2;
+            case "-" -> n1 - n2;
+            default  -> throw new RuntimeException("Erro: Operador inválido!");
+        };
 
-
+        System.out.println("Resultado: "+resultado);
 
     }
 }
