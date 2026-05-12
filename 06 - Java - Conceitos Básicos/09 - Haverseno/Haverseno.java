@@ -36,6 +36,8 @@ public class Haverseno {
 
         System.out.printf("%.2f\n",distancia);
 
+        scanner.close();
+
     }
 
 }
