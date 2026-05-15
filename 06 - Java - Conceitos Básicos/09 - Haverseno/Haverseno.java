@@ -32,9 +32,9 @@ public class Haverseno {
         double lat2 = scanner.nextDouble();
         double lon2 = scanner.nextDouble();
 
-        double distancia = distanciaNaTerra(lat1, lat2, lon1, lon2);
+        double distancia = distanciaNaTerra(lat1, lon1, lat2, lon2);
 
-        System.out.printf("%.2f\n",distancia);
+        System.out.printf("Distância entre os dois pontos: %.2f Km\n",distancia);
 
         scanner.close();
 
