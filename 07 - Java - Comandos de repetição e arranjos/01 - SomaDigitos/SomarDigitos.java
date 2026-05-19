@@ -5,6 +5,7 @@ public class SomarDigitos{
         Scanner scanner = new Scanner(System.in);
         System.out.print("Entre com um inteiro não-negativo: ");
         int numero = scanner.nextInt();
+        scanner.close();
         int resultado = somaDigitos(numero);
         System.out.println("A soma dos dígitos de " + numero + " é: " + resultado);
     }
