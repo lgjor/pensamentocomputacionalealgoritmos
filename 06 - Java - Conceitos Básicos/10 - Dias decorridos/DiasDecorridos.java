@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.management.RuntimeErrorException;
+
 public class DiasDecorridos{
     public static void main(String args[]) {
         
@@ -13,6 +15,10 @@ public class DiasDecorridos{
         int ano = Integer.parseInt(partes[2]);
 
         scanner.close();
+
+        if (!ehDataValida(dia, mes, ano)){
+            throw new RuntimeException("Data inválida!");
+        }
 
         System.out.println("Ano "+ano+" é bissexto? "+ehBissexto(ano));
         System.out.println("O mês "+mes+" tem "+numDias(mes, ano)+" dias no ano de "+ano+".");
@@ -70,16 +76,13 @@ public class DiasDecorridos{
      * Calcula os dias decorridos no ano até a data fornecida
      * @param dia
      * @param mes
-     * @param ano
+     * @param anom
      * @return
      */
     static int diasDecorridos(int dia, int mes, int ano){
         int totalDias = 0;
         mes--;
         switch (mes) {
-            case 12:{
-                totalDias += numDias(12, ano);
-            } 
             case 11: {
                 totalDias += numDias(11, ano);
             }
@@ -110,9 +113,6 @@ public class DiasDecorridos{
             case 2: {
                 totalDias += numDias(2, ano);
             }   
-            case 1:{
-                totalDias += numDias(1, ano);
-            } 
         }
 
         return totalDias+dia;
