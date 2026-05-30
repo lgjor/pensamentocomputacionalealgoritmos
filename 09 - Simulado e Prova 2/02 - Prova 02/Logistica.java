@@ -21,7 +21,7 @@ public class Logistica {
             case "S"  -> 60.0;
             case "SE" -> 50.0;
             case "CO" -> 80.0;
-            default -> throw new RuntimeException("Região Inválida");
+            default -> throw new RuntimeException("Região Inválida: " + regiao);
         };
         return precoBase;
     }
@@ -31,7 +31,7 @@ public class Logistica {
         double adicional;
 
         if (peso<=0){
-            throw new RuntimeException("Peso inválido");
+            throw new RuntimeException("Peso inválido: " + peso);
         } else if (peso<=0.5){
             adicional = 0;
         } else if (peso <=2){
@@ -52,7 +52,7 @@ public class Logistica {
             case 1 -> fretePadrao*2;
             case 3 -> fretePadrao;
             case 7 -> fretePadrao-(fretePadrao*15/100);
-            default -> throw new RuntimeException("Prazo inválido");
+            default -> throw new RuntimeException("Prazo inválido: " + tipoPrazoEntrega);
         };
         return precoComPrazo;
     }
