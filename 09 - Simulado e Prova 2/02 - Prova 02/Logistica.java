@@ -12,7 +12,7 @@ public class Logistica {
 
         scanner.close();
 
-        System.out.printf("Valor do frete: R$%.2f\n",calculaFrete(regiao, peso, prazo));
+        System.out.printf("Valor total: R$%.2f\n",calculaFrete(regiao, peso, prazo));
         
     }
 
