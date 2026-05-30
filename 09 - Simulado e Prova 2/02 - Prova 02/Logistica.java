@@ -40,9 +40,7 @@ public class Logistica {
             adicional = 25.0;
         } else {
             double gramaAdicional = (peso - 10) * 1000;
-            System.out.println("Peso adicional: " + gramaAdicional);
             adicional = 50 + ( gramaAdicional * 0.01 );
-            System.out.println("Valor adicional: " + adicional);
         }
 
         return adicional;
