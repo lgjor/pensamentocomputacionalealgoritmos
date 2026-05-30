@@ -7,12 +7,12 @@ public class Logistica {
 
         System.out.print("Entre coma região (S/SE/CO, peso (kg) e prazo (1/3/7): ");
         String regiao = scanner.next();
-        double peso = scanner.nextDouble();
+        double pesoKG = scanner.nextDouble();
         int prazo = scanner.nextInt();
 
         scanner.close();
 
-        System.out.printf("Valor total: R$%.2f\n",calculaFrete(regiao, peso, prazo));
+        System.out.printf("Valor total: R$%.2f\n",calculaFrete(regiao, pesoKG, prazo));
         
     }
 
@@ -72,7 +72,7 @@ public class Logistica {
         double valorFreteComPrazo = aplicaPrazo(valorFinalFrete, tipoPrazoEntrega);
         valorFinalFrete= valorFreteComPrazo;
         
-        // Retorna o valor final com o frete calculado
+        // Retorna o valor final com o frete calculado ao valor final do frete
         return valorFinalFrete;
     }
 }
