@@ -78,6 +78,8 @@ Prof. [Roberto W. Nóbrega](https://github.com/rwnobrega/)
 - 06 - [IMC](06%20-%20Java%20-%20Conceitos%20Básicos/06%20-%20IMC/readme.md)
 - 07 - [Date](06%20-%20Java%20-%20Conceitos%20Básicos/07%20-%20Date/readme.md)
 - 08 - [Calculadora](06%20-%20Java%20-%20Conceitos%20Básicos/08%20-%20Calculadora/readme.md)
+- 09 - [Haverseno](./06%20-%20Java%20-%20Conceitos%20Básicos/09%20-%20Haverseno/readme.md)
+- 10 - [Dias decorridos](./06%20-%20Java%20-%20Conceitos%20Básicos/10%20-%20Dias%20decorridos/readme.md)
 
 ## 7. Comandos de repetição
 
@@ -92,6 +94,9 @@ Prof. [Roberto W. Nóbrega](https://github.com/rwnobrega/)
 - 04 - [Converte hora min seg](08%20-%20Extras/04%20-%20Converte%20hora%20min%20seg/readme.md)
 - 05 - [Taxa de corretagem](08%20-%20Extras/05%20-%20Taxa%20de%20Corretagem/readme.md)
 - 06 - [Números por extenso](08%20-%20Extras/06%20-%20Numeros%20por%20extenso/readme.md)
+- 07 - [Avaliações de PGR1](./08%20-%20Extras/07%20-%20Avaliacoes%20de%20PGR1/readme.md)
+- 08 - [Código de barras EAN-13](./08%20-%20Extras/08%20-%20Código%20de%20barras%20EAN-13/readme.md)
+- 09 - [Moedas](./08%20-%20Extras/09%20-%20Moedas/readme.md) 
 
 ## 9. Simulado e prova 2
 
