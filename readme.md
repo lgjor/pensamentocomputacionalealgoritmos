@@ -82,7 +82,7 @@ Prof. [Roberto W. Nóbrega](https://github.com/rwnobrega/)
 ## 7. Comandos de repetição
 
 - 01 - [Soma de Dígitos]()
-- 02 -[Esquadrão Degrau]()
+- 02 - [Esquadrão Degrau]()
 
 ## 8. Exercícios extras
 
